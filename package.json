@@ -1,0 +1,21 @@
+{
+  "name": "simplereowntest",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.0.0",
+    "svelte": "^5.2.7",
+    "vite": "^6.0.1"
+  },
+  "dependencies": {
+    "@reown/appkit": "^1.6.0",
+    "@reown/appkit-adapter-solana": "^1.6.0",
+    "@solana/wallet-adapter-wallets": "^0.19.32"
+  }
+}
